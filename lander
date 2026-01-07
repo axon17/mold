@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Mold Removal & Remediation Services | 24/7 Response</title>
+    <meta name="description" content="Certified mold remediation and removal experts. 24/7 emergency response, free inspections, and direct insurance billing. Call now for immediate help.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS (CDN for portability) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#0F4C81',   /* Trustworthy Blue */
+                            dark: '#1e293b',   /* Slate Dark */
+                            red: '#DC2626',    /* Urgent Red */
+                            green: '#16A34A',  /* Success Green */
+                            light: '#F3F4F6'
+                        }
+                    },
+                    animation: {
+                        'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Styles & Utilities */
+        body {
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        /* Sticky Mobile Footer padding to prevent content overlap */
+        .content-padding-bottom {
+            padding-bottom: 80px; 
+        }
+
+        /* Hero Background with Overlay */
+        .hero-bg {
+            background-image: linear-gradient(rgba(15, 76, 129, 0.85), rgba(30, 41, 59, 0.9)), url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 50;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.8);
+            backdrop-filter: blur(4px);
+        }
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 0;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 600px;
+            position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-white content-padding-bottom antialiased">
+
+    <!-- TOP BAR (Trust Signals) -->
+    <div class="bg-slate-900 text-white text-xs py-2 text-center font-medium tracking-wide">
+        <span class="inline-block mx-2"><i class="fas fa-clock text-brand-red mr-1"></i> 24/7 EMERGENCY SERVICE</span>
+        <span class="hidden sm:inline-block mx-2">|</span>
+        <span class="inline-block mx-2"><i class="fas fa-shield-alt text-brand-green mr-1"></i> LICENSED & INSURED</span>
+        <span class="hidden sm:inline-block mx-2">|</span>
+        <span class="inline-block mx-2"><i class="fas fa-file-invoice-dollar text-blue-400 mr-1"></i> DIRECT INSURANCE BILLING</span>
+    </div>
+
+    <!-- HEADER -->
+    <header class="bg-white shadow-sm sticky top-0 z-40">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Brand Logo Area -->
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-brand-blue rounded flex items-center justify-center text-white text-xl">
+                    <i class="fas fa-house-medical"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-xl leading-none tracking-tight text-slate-900">Mold<span class="text-brand-blue">Pro</span><span class="text-brand-red">USA</span></h1>
+                    <p class="text-[0.65rem] text-slate-500 uppercase tracking-wider font-semibold">Rapid Response Team</p>
+                </div>
+            </div>
+
+            <!-- Desktop Call Button -->
+            <a href="#" class="dynamic-phone-link hidden md:flex items-center gap-3 bg-brand-red hover:bg-red-700 transition text-white px-6 py-2 rounded-full font-bold shadow-lg transform hover:scale-105 duration-200">
+                <div class="flex flex-col items-end leading-none">
+                    <span class="text-[0.7rem] opacity-90 font-medium">SPEAK TO AN EXPERT</span>
+                    <span class="text-lg dynamic-phone-display">Loading...</span>
+                </div>
+                <i class="fas fa-phone-volume text-xl animate-pulse"></i>
+            </a>
+            
+            <!-- Mobile Menu Icon (Visual Only - kept simple for landing page focus) -->
+            <a href="#" class="dynamic-phone-link md:hidden text-brand-red text-2xl p-2">
+                <i class="fas fa-phone-square-alt"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-bg text-white py-12 md:py-20 px-4 relative">
+        <div class="container mx-auto max-w-4xl text-center relative z-10">
+            <!-- Urgent Badge -->
+            <div class="inline-flex items-center gap-2 bg-brand-red/90 text-white px-4 py-1 rounded-full text-sm font-bold mb-6 animate-bounce shadow-lg border border-red-400">
+                <i class="fas fa-exclamation-triangle"></i> HEALTH HAZARD ALERT
+            </div>
+            
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
+                Detect. Remove. Restore.<br>
+                <span class="text-blue-300">Before It Spreads.</span>
+            </h2>
+            
+            <p class="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto font-light">
+                Don't risk your family's health or property value. Our certified team stops mold at the source. 
+                <strong>We handle the insurance paperwork for you.</strong>
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#" class="dynamic-phone-link w-full sm:w-auto bg-brand-red hover:bg-red-700 text-white text-xl font-bold py-4 px-8 rounded-lg shadow-xl border-b-4 border-red-900 active:border-b-0 active:translate-y-1 transition flex items-center justify-center gap-3">
+                    <i class="fas fa-phone"></i> CALL FOR FREE ESTIMATE
+                </a>
+            </div>
+            
+            <div class="mt-8 flex flex-wrap justify-center gap-4 text-sm font-medium text-gray-300">
+                <span class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> On-Site in 60 Mins</span>
+                <span class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Free Inspection</span>
+                <span class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> No Removal, No Pay</span>
+            </div>
+        </div>
+        
+        <!-- Trust Badge Overlay Strip -->
+        <div class="absolute bottom-0 left-0 w-full bg-slate-900/50 backdrop-blur-sm py-3 border-t border-white/10 hidden md:block">
+            <div class="container mx-auto flex justify-center gap-12 text-gray-300 grayscale opacity-80">
+                <!-- Simple placeholders for logos like BBB, IICRC, HomeAdvisor -->
+                <div class="flex items-center gap-2 font-bold"><i class="fas fa-award text-2xl"></i> IICRC Certified</div>
+                <div class="flex items-center gap-2 font-bold"><i class="fas fa-star text-2xl"></i> Top Rated</div>
+                <div class="flex items-center gap-2 font-bold"><i class="fas fa-shield-check text-2xl"></i> EPA Compliant</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MOBILE STICKY CALL BUTTON (Conversion Killer) -->
+    <div class="fixed bottom-0 left-0 w-full z-50 p-2 md:hidden bg-white/95 backdrop-blur border-t border-gray-200 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)]">
+        <a href="#" class="dynamic-phone-link flex items-center justify-between bg-brand-red text-white rounded-lg px-4 py-3 shadow-lg animate-pulse-fast">
+            <div class="flex flex-col text-left">
+                <span class="text-xs uppercase font-bold text-red-100">Emergency 24/7 Line</span>
+                <span class="text-xl font-black dynamic-phone-display">...</span>
+            </div>
+            <div class="bg-white text-brand-red rounded-full w-10 h-10 flex items-center justify-center text-xl">
+                <i class="fas fa-phone"></i>
+            </div>
+        </a>
+    </div>
+
+    <!-- SERVICES GRID -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-brand-dark mb-3">Our Comprehensive Services</h3>
+                <p class="text-gray-600">Complete restoration from detection to reconstruction.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-brand-blue hover:shadow-xl transition">
+                    <div class="w-14 h-14 bg-blue-100 text-brand-blue rounded-full flex items-center justify-center text-2xl mb-4">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Inspection & Testing</h4>
+                    <p class="text-gray-600 text-sm mb-4">Advanced moisture detection and air quality testing to find hidden mold behind walls and under floors.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li><i class="fas fa-check text-brand-green mr-2"></i>Thermal Imaging</li>
+                        <li><i class="fas fa-check text-brand-green mr-2"></i>Air Quality Samples</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-brand-red hover:shadow-xl transition transform md:-translate-y-2">
+                    <div class="relative">
+                        <span class="absolute top-[-1.5rem] right-[-1rem] bg-brand-red text-white text-xs font-bold px-2 py-1 rounded">MOST URGENT</span>
+                        <div class="w-14 h-14 bg-red-100 text-brand-red rounded-full flex items-center justify-center text-2xl mb-4">
+                            <i class="fas fa-biohazard"></i>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Mold Removal</h4>
+                    <p class="text-gray-600 text-sm mb-4">Safe containment and HEPA filtration removal of black mold and toxic spores to protect your health.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li><i class="fas fa-check text-brand-green mr-2"></i>Negative Air Pressure</li>
+                        <li><i class="fas fa-check text-brand-green mr-2"></i>Eco-Friendly Antimicrobials</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-brand-blue hover:shadow-xl transition">
+                    <div class="w-14 h-14 bg-blue-100 text-brand-blue rounded-full flex items-center justify-center text-2xl mb-4">
+                        <i class="fas fa-house-damage"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Water Damage Repair</h4>
+                    <p class="text-gray-600 text-sm mb-4">Mold comes from moisture. We fix leaks, dry structures, and repair the damage to prevent return.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li><i class="fas fa-check text-brand-green mr-2"></i>Flood Extraction</li>
+                        <li><i class="fas fa-check text-brand-green mr-2"></i>Drywall Repair</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US (Trust & Authority) -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
+            <div class="md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1581578731117-10d521878df9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Professional Mold Inspector" class="rounded-lg shadow-2xl border-4 border-gray-100">
+            </div>
+            <div class="md:w-1/2">
+                <h3 class="text-3xl font-bold text-brand-dark mb-6">Why Homeowners Trust Us</h3>
+                
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-xl">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold">We Handle Insurance</h4>
+                            <p class="text-gray-600 text-sm">We work directly with all major insurance carriers. We document the damage and bill them directly so you don't have to worry about out-of-pocket costs.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xl">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold">Health-First Approach</h4>
+                            <p class="text-gray-600 text-sm">Our technicians are trained to treat your home like a sterile environment. We use hospital-grade containment to ensure spores don't spread.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center text-xl">
+                            <i class="fas fa-stopwatch"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold">Rapid Response</h4>
+                            <p class="text-gray-600 text-sm">Mold grows fast (24-48 hours). We respond faster. Same-day appointments available for emergencies.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-8">
+                    <a href="#" class="dynamic-phone-link inline-block bg-brand-dark text-white font-bold py-3 px-8 rounded-lg hover:bg-slate-800 transition">
+                        Check Availability in Your Area
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS / SOCIAL PROOF -->
+    <section class="py-16 bg-slate-900 text-white text-center">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <h3 class="text-2xl font-bold mb-8">What Our Customers Say</h3>
+            
+            <div class="bg-slate-800 p-8 rounded-xl relative">
+                <i class="fas fa-quote-left text-4xl text-slate-600 absolute top-4 left-4 opacity-50"></i>
+                <div class="flex justify-center text-yellow-400 text-sm mb-4">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="text-lg italic mb-6">"We found black mold in our basement and I panicked because of my daughter's asthma. They came out within 2 hours, set up containment, and handled the insurance claim. The air smells clean again!"</p>
+                <div class="font-bold text-gray-400">- Sarah M., Homeowner</div>
+            </div>
+            
+            <p class="mt-8 text-sm text-gray-400">Trusted by thousands of families across the USA.</p>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <h3 class="text-3xl font-bold text-center text-brand-dark mb-10">Frequently Asked Questions</h3>
+            
+            <div class="space-y-4">
+                <details class="group bg-gray-50 p-4 rounded-lg cursor-pointer">
+                    <summary class="flex justify-between items-center font-bold text-slate-700 list-none">
+                        <span>Does insurance cover mold removal?</span>
+                        <span class="transition group-open:rotate-180"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="text-gray-600 mt-3 text-sm leading-relaxed">In many cases, yes—especially if the mold resulted from a sudden water event like a burst pipe or leak. We help you navigate your policy and document the claim properly.</p>
+                </details>
+
+                <details class="group bg-gray-50 p-4 rounded-lg cursor-pointer">
+                    <summary class="flex justify-between items-center font-bold text-slate-700 list-none">
+                        <span>Is the inspection really free?</span>
+                        <span class="transition group-open:rotate-180"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="text-gray-600 mt-3 text-sm leading-relaxed">Yes. We offer a visual inspection and consultation at no cost to you. If specialized lab testing is required, we will discuss any potential lab fees upfront.</p>
+                </details>
+
+                <details class="group bg-gray-50 p-4 rounded-lg cursor-pointer">
+                    <summary class="flex justify-between items-center font-bold text-slate-700 list-none">
+                        <span>Is black mold dangerous?</span>
+                        <span class="transition group-open:rotate-180"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="text-gray-600 mt-3 text-sm leading-relaxed">Stachybotrys chartarum (black mold) can produce mycotoxins that may cause respiratory issues, allergies, and other health problems. It should be removed by professionals immediately.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-12 bg-brand-red text-white text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4">Don't Wait Until It Gets Worse.</h2>
+            <p class="mb-8 opacity-90">Mold spreads quickly. Get peace of mind today.</p>
+            <a href="#" class="dynamic-phone-link inline-flex items-center gap-3 bg-white text-brand-red font-black py-4 px-10 rounded-full shadow-xl hover:bg-gray-100 transition transform hover:-translate-y-1">
+                <i class="fas fa-phone-alt animate-pulse"></i>
+                <span class="dynamic-phone-display">...</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-gray-400 py-10 text-sm border-t border-gray-800">
+        <div class="container mx-auto px-4 text-center md:text-left">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center justify-center md:justify-start gap-2 mb-4 text-white">
+                        <i class="fas fa-house-medical text-brand-blue"></i>
+                        <span class="font-bold">Mold<span class="text-brand-blue">Pro</span><span class="text-brand-red">USA</span></span>
+                    </div>
+                    <p class="text-xs">Professional mold remediation referral services. Connecting homeowners with certified local experts.</p>
+                </div>
+                
+                <div class="text-center">
+                    <h4 class="text-white font-bold mb-4">Legal</h4>
+                    <div class="space-x-4">
+                        <button onclick="openModal('privacyModal')" class="hover:text-white underline">Privacy Policy</button>
+                        <button onclick="openModal('termsModal')" class="hover:text-white underline">Terms of Service</button>
+                    </div>
+                </div>
+
+                <div class="text-center md:text-right">
+                    <h4 class="text-white font-bold mb-4">Contact</h4>
+                    <p class="mb-2"><span class="dynamic-phone-display">...</span></p>
+                    <p class="text-xs" id="address-placeholder">1234 Main St, Suite 100<br>Anytown, USA 12345</p>
+                </div>
+            </div>
+
+            <!-- DISCLAIMER (CRITICAL FOR AD COMPLIANCE) -->
+            <div class="border-t border-gray-800 pt-6 text-[10px] text-gray-500 leading-relaxed text-justify">
+                <p class="mb-2"><strong>Disclaimer:</strong> MoldProUSA is a free service to assist homeowners in connecting with local service providers. All contractors/providers are independent and MoldProUSA does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video are actors or models and not contractors listed on MoldProUSA.</p>
+                <p>&copy; <span id="year"></span> MoldProUSA. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODALS (Privacy & Terms) -->
+    <div id="privacyModal" class="modal">
+        <div class="modal-content">
+            <div class="p-4 border-b flex justify-between items-center">
+                <h2 class="text-xl font-bold">Privacy Policy</h2>
+                <span class="cursor-pointer text-2xl" onclick="closeModal('privacyModal')">&times;</span>
+            </div>
+            <div class="p-6 text-sm text-gray-700 space-y-4">
+                <p><strong>Last Updated: [Current Date]</strong></p>
+                <p>We respect your privacy. This policy explains how we collect and use your information.</p>
+                <h3 class="font-bold">Information Collection</h3>
+                <p>We collect information you provide directly to us when you call our service numbers.</p>
+                <h3 class="font-bold">Use of Information</h3>
+                <p>We use your information to connect you with local service providers and improve our services.</p>
+                <h3 class="font-bold">Third Parties</h3>
+                <p>We may share your inquiry details with our network of service partners to fulfill your request.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="termsModal" class="modal">
+        <div class="modal-content">
+            <div class="p-4 border-b flex justify-between items-center">
+                <h2 class="text-xl font-bold">Terms of Service</h2>
+                <span class="cursor-pointer text-2xl" onclick="closeModal('termsModal')">&times;</span>
+            </div>
+            <div class="p-6 text-sm text-gray-700 space-y-4">
+                <p><strong>Agreement to Terms</strong></p>
+                <p>By using our website and calling our numbers, you agree to these terms.</p>
+                <h3 class="font-bold">Service Description</h3>
+                <p>We are a referral service. We do not guarantee the quality of work performed by third-party contractors.</p>
+                <h3 class="font-bold">Limitation of Liability</h3>
+                <p>We are not liable for any damages arising from the use of our service or the work performed by contractors.</p>
+            </div>
+        </div>
+    </div>
+
+ 
+    <meta http-equiv="delegate-ch" content="sec-ch-ua https://typtonkey-estroups.com; sec-ch-ua-mobile https://typtonkey-estroups.com; sec-ch-ua-arch https://typtonkey-estroups.com; sec-ch-ua-model https://typtonkey-estroups.com; sec-ch-ua-platform https://typtonkey-estroups.com; sec-ch-ua-platform-version https://typtonkey-estroups.com; sec-ch-ua-bitness https://typtonkey-estroups.com; sec-ch-ua-full-version-list https://typtonkey-estroups.com; sec-ch-ua-full-version https://typtonkey-estroups.com"><style>.dtpcnt{opacity: 0;}</style>
+    <script>
+        (function(e,d,k,n,u,v,g,w,C,f,p,x,D,c,q,r,h,t,y,G,z){function A(){for(var a=d.querySelectorAll(".dtpcnt"),b=0,l=a.length;b<l;b++)a[b][w]=a[b][w].replace(/(^|\s+)dtpcnt($|\s+)/g,"")}function E(a,b,l,F){var m=new Date;m.setTime(m.getTime()+(F||864E5));d.cookie=a+"="+b+"; "+l+"samesite=Strict; expires="+m.toGMTString()+"; path=/";k.setItem(a,b);k.setItem(a+"-expires",m.getTime())}function B(a){var b=d.cookie.match(new RegExp("(^| )"+a+"=([^;]+)"));return b?b.pop():k.getItem(a+"-expires")&&+k.getItem(a+
+    "-expires")>(new Date).getTime()?k.getItem(a):null}z="https:"===e.location.protocol?"secure; ":"";e[f]||(e[f]=function(){(e[f].q=e[f].q||[]).push(arguments)},r=d[u],d[u]=function(){r&&r.apply(this,arguments);if(e[f]&&!e[f].hasOwnProperty("params")&&/loaded|interactive|complete/.test(d.readyState))for(;c=d[v][p++];)/\/?click\/?($|(\/[0-9]+)?$)/.test(c.pathname)&&(c[g]="javascrip"+e.postMessage.toString().slice(4,5)+":"+f+'.l="'+c[g]+'",void 0')},setTimeout(function(){(t=RegExp("[?&]cpid(=([^&#]*)|&|#|$)").exec(e.location.href))&&
+    t[2]&&(h=t[2],y=B("vl-"+h));var a=B("vl-cep"),b=location[g];if("savedCep"===D&&a&&(!h||"undefined"===typeof h)&&0>b.indexOf("cep=")){var l=-1<b.indexOf("?")?"&":"?";b+=l+a}c=d.createElement("script");q=d.scripts[0];c.defer=1;c.src=x+(-1===x.indexOf("?")?"?":"&")+"lpref="+n(d.referrer)+"&lpurl="+n(b)+"&lpt="+n(d.title)+"&vtm="+(new Date).getTime()+(y?"&uw=no":"");c[C]=function(){for(p=0;c=d[v][p++];)/dtpCallback\.l/.test(c[g])&&(c[g]=decodeURIComponent(c[g]).match(/dtpCallback\.l="([^"]+)/)[1]);A()};
+    q.parentNode.insertBefore(c,q);h&&E("vl-"+h,"1",z)},0),setTimeout(A,7E3))})(window,document,localStorage,encodeURIComponent,"onreadystatechange","links","href","className","onerror","dtpCallback",0,"https://typtonkey-estroups.com/d/.js","savedCep");
+    </script>
+    <noscript><link href="https://typtonkey-estroups.com/d/.js?noscript=true&lpurl=" rel="stylesheet"/></noscript>
+    
+
+<!-- ============================================================ -->
+<!-- 2. THE BRIDGE: VOLUUM -> MARKETCALL HANDOFF                  -->
+<!-- ============================================================ -->
+<script>
+(function() {
+    // A. Define the MarketCall System ID (Get this from their dashboard)
+    var MARKETCALL_SYSTEM_ID = 'REPLACE_WITH_YOUR_ID'; 
+
+    // B. Setup MarketCall Queue (Standard setup)
+    window.marketcall = window.marketcall || function() { 
+        (window.marketcall.q = window.marketcall.q || []).push(arguments) 
+    };
+
+    // C. The "Wait and Swap" Logic
+    var attempts = 0;
+    var waitForVoluum = setInterval(function() {
+        attempts++;
+        
+        // Check if Voluum (dtpCallback) is ready
+        if (typeof dtpCallback !== 'undefined' && typeof dtpCallback.getClickID === 'function') {
+            clearInterval(waitForVoluum);
+
+            // 1. Get the Voluum Click ID
+            var voluumClickId = dtpCallback.getClickID();
+
+            console.log("SUCCESS: Voluum ID captured:", voluumClickId);
+
+            // 2. Initialize MarketCall with the ID as 'subid'
+            // This tells MarketCall: "This user is Voluum ID [xyz]"
+            marketcall('init', MARKETCALL_SYSTEM_ID, {
+                'subid': voluumClickId
+            });
+
+            // 3. Swap the numbers on the page
+            // (These classes match the landing page I built for you)
+            marketcall('replace', '.dynamic-phone-display'); 
+            marketcall('replace_link', '.dynamic-phone-link');
+
+        } else if (attempts > 50) {
+            // Safety: If Voluum fails to load after 5 seconds, load MarketCall anyway 
+            // so we at least show a phone number (even if tracking fails)
+            clearInterval(waitForVoluum);
+            console.log("WARNING: Voluum not found. Loading MarketCall without SubID.");
+            marketcall('init', MARKETCALL_SYSTEM_ID);
+            marketcall('replace', '.dynamic-phone-display'); 
+            marketcall('replace_link', '.dynamic-phone-link');
+        }
+    }, 100); // Check every 100ms
+})();
+</script>
+
+<!-- ============================================================ -->
+<!-- 3. MARKETCALL LOADER (Do not change this)                    -->
+<!-- ============================================================ -->
+<script async src="//system.marketcall.com/js/v1/loader.js"></script>
+
+
+
+
+
+</body>
+</html>
